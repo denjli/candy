@@ -113,4 +113,24 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
-dei QJGsDVmsXl lqKdB cOqMt JVFlGKdQiu MqJrQ AhPal qNbbTg YiMdgigxVq TgDVwW ztEA iaxgFrZPc NtUt uxgJQ 
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom font classes */
+.font-fredoka {
+  font-family: var(--font-fredoka), cursive;
+}
+
+.font-comic {
+  font-family: var(--font-comic), cursive;
+}
+
+.font-quicksand {
+  font-family: var(--font-quicksand), sans-serif;
+}

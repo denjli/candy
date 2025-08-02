@@ -22,9 +22,8 @@ const quicksand = Quicksand({
 })
 
 export const metadata: Metadata = {
-  title: "Sweet Match Mania",
-  description: "A delightful Match-3 candy puzzle game",
-    generator: 'v0.dev'
+  title: "Candy Project",
+  description: "A tasty candy game built for athena awards. Hope you enjoy :)",
 }
 
 export default function RootLayout({
