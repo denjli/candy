@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/reno
 
 # next.js
 /.next/
