@@ -17,8 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
+img, picture, video, canvas, svg {   display: block;
   max-width: 100%;
 }
 
